@@ -8,6 +8,10 @@ export class Retangulo {
    * em sua construção.
    */
   constructor(alturaInicial: number, baseInicial: number) {
+    if (alturaInicial < 0 || baseInicial < 0) {
+      // Lança um erro
+      throw new Error("Altura ou base inválida");
+    }
     // O operador this acessa o atributo altura do objeto
     this.altura = alturaInicial;
 
