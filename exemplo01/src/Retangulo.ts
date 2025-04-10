@@ -1,6 +1,6 @@
 export class Retangulo {
-  base: number;
-  altura: number;
+  private base: number;
+  private altura: number;
 
   /**
    * Precisamos definir que o retângulo

@@ -15,3 +15,4 @@ describe("Testes sobre a classe Retangulo", function () {
     }).toThrow("Altura ou base inválida");
   });
 });
+``;
