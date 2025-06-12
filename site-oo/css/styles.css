@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "standard";
+  src: url(../fonts/Caveat-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+#container h1 {
+  font-family: "standard";
+}
+
+.animal {
+  display: flex;
+  align-items: center;
+}
+
+.animal button {
+  margin-left: 20px;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #10b981;
+  font-size: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#imagem-revelacao {
+  width: 300px;
+}
